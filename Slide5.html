@@ -1,0 +1,183 @@
+<html>
+<head>
+
+<style>
+*{
+margin: 0PX;
+padding: 0PX;
+
+}
+
+
+body{ Background-image:url(https://images8.alphacoders.com/681/681473.jpg);
+ background-size: cover;
+ background-repeat:no-repeat;
+         font-family: 'Fredoka One', courier;
+         
+
+}
+.flex{
+top: 30%;
+position: absolute;
+display: flex;
+justify-content: space-around;
+flex-direction:row;
+margin-left: 50px
+}
+ 
+
+
+
+.text-animation{
+text-align: center;
+
+height:50vh;
+position: relative;
+width:30%;
+
+}
+.text-animation span{
+display: block;
+}
+
+.t1{
+color: white;
+font-size: 200px;
+font-weight: 700;
+letter-spacing: 8px;
+margin-bottom: 20px;
+background-color: transparent;
+position: relative;
+animation: welcome 3s 1;
+text-shadow: 1px 4px  black;
+
+}
+
+@keyframes welcome {
+0%{
+color:transparent;
+margin-bottom: -40px;
+text-shadow: none;
+
+}
+30%{
+letter-spacing: 25px;
+margin-bottom: -40%;
+text-shadow: none;
+}
+85%{
+letter-spacing: 8px;
+margin-bottom: -20%
+}
+}
+
+@keyframes hand{
+from{
+	border-radius: 30%
+}
+to{
+	border-radius: 0%
+}
+}
+
+
+@keyframes scale{
+from{
+					transform: scale3d(.75, .75,1)
+
+}
+to{
+							transform: scale3d(1, 1,1)
+
+}
+}
+
+
+@keyframes text{
+0%{
+	color:transparent;
+
+}
+30%{
+	color: transparent;
+}
+85%{
+	color: transparent;
+}
+}
+
+footer{
+margin-top: 90vh;
+color:white;
+background-color: black;
+text-align: center;
+font-family: 'Baloo Tamma 2', courier;
+
+
+font-size: 30px;
+padding: 20px;
+
+letter-spacing: 3px;
+ box-shadow: 10px 4px 70px white;
+}
+
+
+.c1 {
+     animation: here 4s 1 ease;
+     animation-delay: 4s;
+}
+
+.c2{
+     animation:here 4s 1 ease ;
+     animation-delay: 4.1s
+
+
+}
+
+.c3{
+     animation: here 4s 1 ease ;
+     animation-delay:4.2s;
+}
+
+.c4{
+     animation: here 4s ease ;
+animation-delay: 4.3s;
+}
+.c5{
+     animation: here 4s ease ;
+animation-delay: 4.3s;
+}
+
+@keyframes here{
+       from{
+       	opacity: 0%
+       }
+       to{
+       	opacity: 100%
+       }
+}
+</style>
+
+<body><div class="flex">
+
+<div class="text-animation">
+	<span class="t1">THANK YOU</span>
+	
+</div></div>
+<footer>
+<span class="c1">
+    Created </span>
+<span class="c2">
+              by</span>
+<span class="c3">
+            FATIMA</span> 	
+<span class="c4">
+          MASOOD</span><br>
+<span class="c4">
+   10th </span>
+<span class="c5">
+              BLUE</span>
+</footer>
+</body>
+</head>
+</html>
